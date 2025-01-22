@@ -1,0 +1,59 @@
+10) Faça um algoritmo que leia a largura e altura de uma parede, calcule e
+mostre a área a ser pintada e a quantidade de tinta necessária para o serviço,
+sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
+
+VISUALG
+
+Algoritmo "semnome"
+
+Var
+
+largura , altura , area , litros : real
+ 
+Inicio
+
+  escreval(" TINTAS SUVINIL")
+  ESCREVAL()
+  escreval(" Calculadora de Tinta")
+  escreval()
+  escreva(" Largura da parede: ")
+  leia(largura)
+  escreva(" Altura da parede: ")
+  leia(altura)
+   area <- largura * altura
+   litros <- area / 2
+  escreval()
+  escreval(" Área total da parede (m2): ",area:1:2,"")
+  escreval(" Quantidade de tinta (litros): ",litros:1:2," litros")
+  escreval()
+
+Fimalgoritmo
+
+------------------------------------------------------------------
+
+PORTUGOL WEBSTUDIO
+
+programa
+{
+	inclua biblioteca Matematica --> mat
+
+	funcao inicio()
+	{
+		real largura , altura , area , litros 
+
+  escreva("\n TINTAS SUVINIL")
+  escreva("\n")
+  escreva("\n Calculadora de Tinta")
+  escreva("\n")
+  escreva(" Largura da parede: ")
+  leia(largura)
+  escreva(" Altura da parede: ")
+  leia(altura)
+   area = largura * altura
+   litros = area / 2
+  escreva("\n Área total da parede (m2): ",mat.arredondar(area,2),"")
+  escreva("\n Quantidade de tinta (litros): ",mat.arredondar(litros,2)," litros")
+  escreva("\n")
+		
+	}
+}
