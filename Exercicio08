@@ -1,0 +1,68 @@
+8) Desenvolva um programa que leia uma distância em metros e mostre os valores
+relativos em outras medidas.
+Ex:
+Digite uma distância em metros: 185.72
+A distância de 85.7m corresponde a:
+0.18572Km
+1.8572Hm
+18.572Dam
+1857.2dm
+18572.0cm
+185720.0mm
+
+VISUALG
+
+Algoritmo "semnome"
+
+Var
+
+num , metros , hectometro , decametro , decimetro , centimetro , milimetro : real
+ 
+Inicio
+
+  escreva(" Digite uma distância em metros: ")
+  leia(num)
+  escreval(" A distância de",num," corresponde a:")
+  metros <- num / 1000
+  hectometro <- num / 100
+  decametro <- num / 10
+  decimetro <- num * 10
+  centimetro <- num * 100
+  milimetro <- num * 1000
+  escreval("",metros,"Km")
+  escreval("",hectometro,"Hm")
+  escreval("",decametro,"Dam")
+  escreval("",decimetro,"dm")
+  escreval(" ",centimetro:1:1,"cm")
+  escreval(" ",milimetro:1:1,"mm")
+
+Fimalgoritmo
+
+------------------------------------------------------------------
+
+PORTUGOL WEBSTUDIO
+
+programa {
+  
+  funcao inicio() {
+    
+  real num , metros , hectometro , decametro , decimetro , centimetro , milimetro
+
+  escreva("\n Digite uma distância em metros: ")
+  leia(num)
+  escreva("\n A distância de ",num," corresponde a:")
+  metros = num / 1000
+  hectometro = num / 100
+  decametro = num / 10
+  decimetro = num * 10
+  centimetro = num * 100
+  milimetro = num * 1000
+  escreva("\n ",metros,"Km")
+  escreva("\n ",hectometro,"Hm")
+  escreva("\n ",decametro,"Dam")
+  escreva("\n ",decimetro,"dm")
+  escreva("\n ",centimetro,"cm")
+  escreva("\n ",milimetro,"mm\n")
+
+  }
+}
