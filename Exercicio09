@@ -1,0 +1,51 @@
+9) Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$)
+e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$6,09.
+
+VISUALG
+
+Algoritmo "semnome"
+
+Var
+
+reais ,dolares : real
+ 
+Inicio
+
+  escreval(" Conversão de: Real/BRL (790)")
+  escreval()
+  escreva(" Valor de dinheiro em real(R$) tem na carteira: ")
+  leia(reais)
+  dolares <- reais / 6,09
+  escreval(" ______________________________________________________")
+  escreval()
+  escreval(" Para: Dólar dos Estados Unidos/USD (220)")
+  escreval(" Resultado da conversão:",dolares:1:2,"")
+  escreval(" ______________________________________________________")
+
+Fimalgoritmo
+
+------------------------------------------------------------------
+
+PORTUGOL WEBSTUDIO
+
+programa {
+  
+  inclua biblioteca Matematica --> mat
+
+  funcao inicio() {
+    
+    real reais ,dolares 
+  
+    escreva("\n Conversão de: Real/BRL (790)\n")
+    escreva("\n")
+    escreva(" Valor de dinheiro em real(R$) tem na carteira: ")
+    leia(reais)
+    dolares = reais / 6.09
+    escreva(" ______________________________________________________")
+    escreva("\n")
+    escreva("\n Para: Dólar dos Estados Unidos/USD (220)")
+    escreva("\n Resultado da conversão: ",mat.arredondar(dolares,2),"")
+    escreva("\n ______________________________________________________\n")
+    
+  }
+}
