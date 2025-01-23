@@ -1,0 +1,28 @@
+13) Faça um algoritmo que leia o salário de um funcionário, calcule e mostre o
+seu novo salário, com 15% de aumento.
+
+------------------------------------------------------------------
+
+PORTUGOL WEBSTUDIO
+
+programa {
+
+  inclua biblioteca Matematica --> mat
+
+  funcao inicio() {
+
+    real salario , novo
+    cadeia nome
+
+    escreva("\n REAJUSTE SALARÍAL ")
+    escreva("\n")
+    escreva("\n Nome do funcionário: ")
+    leia(nome)
+    escreva(" Salário: ")
+    leia(salario)
+    novo = salario * 15 / 100
+    novo = salario + novo
+    escreva(" 15% de aumento")
+    escreva("\n Novo salário : R$ ", mat.arredondar(novo,2) ,"\n")
+  }
+}
