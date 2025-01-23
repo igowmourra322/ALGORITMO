@@ -1,0 +1,22 @@
+11) Desenvolva uma lógica que leia os valores de A, B e C de uma equação do
+segundo grau e mostre o valor de Delta
+
+------------------------------------------------------------------
+
+PORTUGOL WEBSTUDIO
+
+programa {
+
+  inclua biblioteca Matematica --> mat
+
+  funcao inicio() {
+
+    real valor , desconto
+    escreva("\n LOGISTÍCA")
+    escreva("\n Preço do produto: ")
+    leia(valor)
+    desconto = valor * 5 / 100
+    desconto = valor - desconto
+    escreva(" PREÇO PROMOCIONAL| 5% de desconto | : R$ ", mat.arredondar(desconto,2) ,"\n")
+  }
+}
