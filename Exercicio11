@@ -1,6 +1,29 @@
 11) Desenvolva uma lógica que leia os valores de A, B e C de uma equação do
 segundo grau e mostre o valor de Delta
 
+VISUALG
+
+Algoritmo "semnome"
+
+Var
+
+  A , B , C , del : real
+ 
+Inicio
+
+    escreva(" Valor de A: ")
+    leia(A)
+    escreva(" Valor de B: ")
+    leia(B)
+    escreva(" Valor de C: ")
+    leia(C)
+    del <- (B * B) - (4 * A * C)
+    escreval(" Delta:", del ,"")
+
+Fimalgoritmo
+
+
+
 ------------------------------------------------------------------
 
 PORTUGOL WEBSTUDIO
