@@ -1,6 +1,30 @@
 13) Faça um algoritmo que leia o salário de um funcionário, calcule e mostre o
 seu novo salário, com 15% de aumento.
 
+VISUALG
+
+Algoritmo "semnome"
+
+Var
+
+    salario , novo : real
+    nome : caractere
+ 
+Inicio
+
+    escreval(" REAJUSTE SALARÍAL ")
+    escreval()
+    escreva(" Nome do funcionário: ")
+    leia(nome)
+    escreva(" Salário: ")
+    leia(salario)
+    novo <- salario * 15 / 100
+    novo <- salario + novo
+    escrevaL(" 15% de aumento")
+    escreval(" Novo salário : R$ ",novo:1:2 ,"")
+
+Fimalgoritmo
+
 ------------------------------------------------------------------
 
 PORTUGOL WEBSTUDIO
