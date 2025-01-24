@@ -1,0 +1,52 @@
+16) [DESAFIO] Escreva um programa para calcular a redução do tempo de vida de um
+fumante. Pergunte a quantidade de cigarros fumados por dias e quantos anos ele
+já fumou. Considere que um fumante perde 10 min de vida a cada cigarro. Calcule
+quantos dias de vida um fumante perderá e exiba o total em dias.
+
+VISUALG
+
+Algoritmo "semnome"
+
+Var
+
+    quantidade , anos , vida : real
+    
+Inicio
+
+    escreval(" ESTE PRODUTO CAUSA | MORTE |")
+    escreval()
+    escreva(" Quantidade de cigarros fumados por dia: ")
+    leia(quantidade)
+    escreva(" Há quantos anos já fuma: ")
+    leia(anos)
+    vida <- (quantidade * 10 * 365 * anos) / (60 * 24)
+    escreval()
+    escreval(" QUANTOS DIAS DE VIDA PERDIDOS: ",int(vida)," DIAS")
+
+Fimalgoritmo
+
+------------------------------------------------------------------
+
+PORTUGOL WEBSTUDIO
+
+programa {
+
+  funcao inicio() {
+    
+    inteiro quantidade , anos , vida
+    
+    escreva("\n ESTE PRODUTO CAUSA | MORTE | \n")
+    escreva("\n Quantidade de cigarros fumados por dia: ")
+    leia(quantidade)
+    escreva(" Há quantos anos já fuma: ")
+    leia(anos)
+    vida =  (quantidade * 10 * 365 * anos) / (60 * 24)
+    escreva(" QUANTOS DIAS DE VIDA PERDIDOS: ",vida," DIAS\n")
+
+  }
+}
+
+
+
+
+
