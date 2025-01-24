@@ -1,6 +1,26 @@
 12) Crie um programa que leia o preço de um produto, calcule e mostre o seu
 PREÇO PROMOCIONAL, com 5% de desconto.
 
+VISUALG
+
+Algoritmo "semnome"
+
+Var
+
+  valor , desconto : real
+ 
+Inicio
+
+    escreval(" LOGISTÍCA")
+    escreval()
+    escreva(" Preço do produto: ")
+    leia(valor)
+    desconto <- valor * 5 / 100
+    desconto <- valor - desconto
+    escreval(" PREÇO PROMOCIONAL| 5% de desconto | : R$ ",desconto:1:2,"")
+
+Fimalgoritmo
+
 ------------------------------------------------------------------
 
 PORTUGOL WEBSTUDIO
@@ -12,6 +32,7 @@ programa {
   funcao inicio() {
 
     real valor , desconto
+
     escreva("\n LOGISTÍCA")
     escreva("\n Preço do produto: ")
     leia(valor)
