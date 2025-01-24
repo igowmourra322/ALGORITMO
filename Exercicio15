@@ -1,0 +1,44 @@
+15) Crie um programa que leia o número de dias trabalhados em um mês e mostre o
+salário de um funcionário, sabendo que ele trabalha 8 horas por dia e ganha R$25
+por hora trabalhada
+
+VISUALG
+
+Algoritmo "semnome"
+
+Var
+
+    dias , salario : real
+    
+Inicio
+
+    escreval(" HOLERITE EMPRESARIAL")
+    escreval()
+    escreva(" Número de dias trabalhados no mês: ")
+    leia(dias)
+     salario <- dias * (8 * 25)
+    escreval(" SALÁRIO DO FUNCÍONARIO: R$ ",salario:1:2,"")
+
+Fimalgoritmo
+
+------------------------------------------------------------------
+
+PORTUGOL WEBSTUDIO
+
+programa {
+
+  inclua biblioteca Matematica --> mat
+  funcao inicio() {
+    
+    real dias , salario
+    
+    escreva("\n HOLERITE EMPRESARIAL \n")
+    escreva("\n Número de dias trabalhados no mês: ")
+    leia(dias)
+     salario = dias * (8 * 25)
+    escreva(" SALÁRIO DO FUNCÍONARIO: R$ ",mat.arredondar(salario,2),"\n")
+
+  }
+}
+
+
