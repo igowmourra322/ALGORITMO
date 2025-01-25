@@ -1,0 +1,28 @@
+21) Faça um algoritmo que leia um determinado ano e mostre se ele é ou não
+BISSEXTO.
+
+------------------------------------------------------------------
+
+PORTUGOL WEBSTUDIO
+programa 
+{
+
+	funcao inicio()
+	{
+			
+		inteiro ano
+
+		escreva("\n ANO BISSEXTO\n")
+		escreva("\n ANO: ")
+		leia(ano)
+			se (ano % 4 == 0) 		
+			{
+				escreva(" O ANO É BISSEXTO \n")
+			}
+			senao 
+			{
+				escreva(" O ANO NÃO É BISSEXTO \n")
+			}
+	}
+}
+
