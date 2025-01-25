@@ -1,0 +1,50 @@
+23) Numa promoção exclusiva para o Dia da Mulher, uma loja quer dar descontos
+para todos, mas especialmente para mulheres. Faça um programa que leia nome,
+sexo e o valor das compras do cliente e calcule o preço com desconto. Sabendo
+que:
+- Homens ganham 5% de desconto
+- Mulheres ganham 13% de desconto
+
+------------------------------------------------------------------
+
+PORTUGOL WEBSTUDIO
+
+programa 
+{
+	
+  inclua biblioteca Matematica --> mat
+
+	funcao inicio()
+	{
+			
+		cadeia nome , sexo 
+		real valor ,  desconto
+
+		escreva("\n “ Invista nas mulheres: Acelere o progresso ”\n")
+		escreva("\n Nome: ")
+		leia(nome)
+		escreva(" Valor das compras: ")
+		leia(valor)
+		escreva(" [F] - FEMININO")
+		escreva("\n [M] - MASCULINO")
+		escreva("\n Sexo: ")
+		leia(sexo)
+			se (sexo == 'F')
+			{
+				desconto = valor * 13 / 100
+				desconto = valor - desconto
+				escreva(" Mulheres ganham 13% de desconto\n")
+				escreva(" TOTAL A PAGAR COM DESCONTO: R$ ",mat.arredondar(desconto,2),"\n")
+			}
+			senao se (sexo == 'M') {
+			 desconto = valor * 5 / 100
+			 desconto = valor - desconto
+				escreva(" Homens ganham 5% de desconto\n")
+				escreva(" TOTAL A PAGAR COM DESCONTO: R$ ",mat.arredondar(desconto,2),"\n")
+	 	  }
+			senao 
+			{
+				escreva(" SEXO INVÁLIDO\n")
+			}
+	}
+}
