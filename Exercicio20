@@ -1,0 +1,28 @@
+20) Desenvolva um programa que leia um número inteiro e mostre se ele é PAR ou
+ÍMPAR.
+
+------------------------------------------------------------------
+
+PORTUGOL WEBSTUDIO
+
+programa 
+{
+
+	funcao inicio()
+	{
+			
+		inteiro num
+
+		escreva("\n PAR OU ÍMPAR ? \n")
+		escreva("\n Digite um número: ")
+		leia(num)
+			se (num % 2 == 0) 		
+			{
+				escreva(" O NÚMERO É PAR \n")
+			}
+			senao 
+			{
+				escreva(" O NÚMERO É ÍMPAR \n")
+			}
+	}
+}
