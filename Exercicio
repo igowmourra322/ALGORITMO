@@ -1,0 +1,35 @@
+18) Faça um programa que leia o ano de nascimento de uma pessoa, calcule a idade
+dela e depois mostre se ela pode ou não votar.
+
+------------------------------------------------------------------
+
+PORTUGOL WEBSTUDIO
+
+programa 
+{
+
+	funcao inicio()
+	{
+			
+		inteiro ano , idade , atual , menoridade
+
+		escreva("\n JUSTIÇA ELEITORAL \n")
+		escreva("\n Ano de nascimento : ")
+		leia(ano)
+		escreva(" Ano atual : ")
+		leia(atual)
+		 idade = atual - ano
+			se (idade > 18)
+			{
+				escreva(" IDADE: ",idade," ANOS\n")
+				escreva(" HABILIÁDO A VOTAR - OBRIGATÓRIO \n")
+			}
+			senao 
+			{
+				menoridade = 18 - idade
+				escreva(" IDADE: ",idade," ANO(S)\n")
+				escreva(" NÃO PODE VOTAR , FALTAM ",menoridade," ANO(S)\n")
+			}
+	}
+}
+
